@@ -1,5 +1,23 @@
 import os
 import pandas as pd
+import streamlit as st
+
+# Page settings with a traditional vibe
+st.set_page_config(page_title="Mithila Art Tracker", page_icon="🦚")
+
+# Party  balloons!
+st.balloons()
+
+# Main Title and Subtitle
+st.title("🦚 Welcome to My Mithila Art Gallery 🌺")
+st.subheader("Ghar ki traditional kala, ab sidha Internet par!")
+
+# Description
+st.write("Yeh app bohot special hai kyunki isme hamari apni Mithila (Madhubani) painting ka touch hai. 🎨✨")
+st.write("Ab hum yahan apne saare art projects aur sketches track karenge.")
+
+if st.button("App Check Karo (Click Me)"):
+    st.success("PERFECT!!!")
 
 def calculate_business_stats():
     print("=============================================")
